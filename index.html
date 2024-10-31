@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проба исп-я API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <video id="media">
+        <source src="media/Stromae - Tous Les M_mes  1080p.mp4">
+    </video>
+
+    <nav>
+        <button id="play">
+            <img class="img_pause" src="img/pause.svg" alt="">
+        </button>
+
+        <div id="bar">
+            <div id="progress"></div>
+        </div>
+
+        <button id="mute">
+            <img class="img_sound" src="img/sound.svg" alt="">
+        </button>
+
+        <div id="control">
+            <input type="range" id="volume" min="0" max="1" step=".1" value=".6">
+        </div>
+
+    </nav>
+
+    <script src="play.js"></script>
+
+</body>
+</html>
+
+<!-- https://www.w3.org/2010/05/video/mediaevents.html -->

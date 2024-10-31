@@ -1,0 +1,52 @@
+
+#media {
+    width: 720px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+.img_pause {
+    margin: 0 0 0 20px;
+    color: #5d5d5d;
+}
+
+nav {
+    width: 720px;
+    height: 40px;
+    margin: 5px auto;
+    background: white;
+    opacity: .8;
+    transition: .3;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav:hover {
+    opacity: 1;
+}
+
+#bar {
+    width: 400px;
+    height: 7px;
+    border: 1px solid #A5A5B1;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #EDEDF1;
+}
+
+#progress {
+    width: 150px;
+    height: 7px;
+    background: red;
+    border-radius: 5px;
+}
+
